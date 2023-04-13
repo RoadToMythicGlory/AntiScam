@@ -1,0 +1,25 @@
+Scam Recovery Landing Page
+This landing page is designed to promote our scam recovery services. We help clients recover their funds lost to forex and crypto scams. The page features our company's achievements, clients' testimonials, and a contact form for potential clients to submit their information.
+
+Table of Contents
+Technologies Used
+Installation
+Usage
+Contributing
+License
+Technologies Used
+The following technologies were used in the development of this project:
+
+HTML
+CSS
+Installation
+To install the project, simply clone the repository and open the HTML files in your preferred web browser.
+
+sh
+Copy code
+git clone https://github.com/RoadToMythicGlory/AntiScam.git
+Usage
+This landing page is designed for lead generation and to provide information about our scam recovery services. Users can read about our company, view client testimonials, and fill out a contact form to request more information or assistance with recovering their lost funds.
+
+Contributing
+Contributions are welcome! If you find a bug or have a feature request, please open an issue or create a pull request.
