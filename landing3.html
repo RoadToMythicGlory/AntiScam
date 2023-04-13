@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Landing Page</title>
+	<style>
+		body {
+			background-color: #1c3041;
+			background-image: url('image.jpg');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			font-family: Arial, sans-serif;
+			color: #fff;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 40px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 24px;
+			line-height: 1.5;
+			margin-bottom: 40px;
+		}
+		img {
+			max-width: 100%;
+			margin-bottom: 20px;
+		}
+		form {
+			max-width: 400px;
+			margin: 0 auto;
+		}
+		label {
+			display: block;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+		input[type="text"], input[type="email"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-radius: 30px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.3);
+			background-color: #f2f2f2;
+			color: #1c3041;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: center;
+			background-color: transparent;
+		}
+		input[type="text"]::placeholder,
+		input[type="email"]::placeholder {
+			color: #1c3041;
+			opacity: 0.6;
+		}
+		input[type="submit"] {
+			background-color: #fff;
+			color: #1c3041;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 10px 30px;
+			border: none;
+			border-radius: 30px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		input[type="submit"]:hover {
+			background-color: #1c3041;
+			color: #000000;
+		}
+	</style>
+</head>
+<body>
+	<div class="topnav">
+        		<a class="active" href="about.html">About Us</a>
+		<a href="testimonials.html">Clients Testimonials</a>
+		<a href="achivements.html">Our Achievements</a>
+		<a href="partners.html">Partners</a>
+    		</div>
+	<div class="container">
+		<h1>Were you scammed?</h1>
+		<p>Contact us today and you might as well get your money back.<br> With more than 5 years expirience in the unregulated trading field we've uncovered hundreds of crypto and forex scums.</p>
+		<div class="image-gallery">
+			<img src="image1.jpg" alt="Image 1">
+			<img src="image2.jpg" alt="Image 2">
+			<img src="image3.jpg" alt="Image 3">
+		</div>
+		<h2>Contact Us</h2>
+		<form action="post-submission.html">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Your name" required>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="Your email" required>
+			<label for="scamming_agent">Scamming Agent</label>
+			<input type="text" id="scamming_agent" name="scamming_agent" placeholder="Name of the scamming agent">
+			<label for="scamming_company">Scamming Company</label>
+			<input type="text" id="scamming_company" name="scamming_company" placeholder="Name of the scamming company">
+			<label for="amount_lost">Amount of Money Lost</label>
+			<input type="text" id="amount_lost" name="amount_lost" placeholder="Amount of money lost">
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
